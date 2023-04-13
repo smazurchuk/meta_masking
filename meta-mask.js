@@ -109,14 +109,14 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'imgs/4_2.png', 'path': 'imgs/4_2.png'},
-    {'name': 'imgs/1_1.png', 'path': 'imgs/1_1.png'},
-    {'name': 'imgs/2_2.png', 'path': 'imgs/2_2.png'},
-    {'name': 'imgs/4_1.png', 'path': 'imgs/4_1.png'},
     {'name': 'imgs/2_1.png', 'path': 'imgs/2_1.png'},
+    {'name': 'imgs/1_2.png', 'path': 'imgs/1_2.png'},
+    {'name': 'imgs/1_1.png', 'path': 'imgs/1_1.png'},
     {'name': 'imgs/3_2.png', 'path': 'imgs/3_2.png'},
+    {'name': 'imgs/4_1.png', 'path': 'imgs/4_1.png'},
     {'name': 'imgs/3_1.png', 'path': 'imgs/3_1.png'},
-    {'name': 'imgs/1_2.png', 'path': 'imgs/1_2.png'}
+    {'name': 'imgs/2_2.png', 'path': 'imgs/2_2.png'},
+    {'name': 'imgs/4_2.png', 'path': 'imgs/4_2.png'}
   ]
 });
 
@@ -303,7 +303,7 @@ async function experimentInit() {
     edges: 4, size:[0.01, 0.01],
     ori: 0.0, pos: [0, 0],
     lineWidth: 1.0, lineColor: new util.Color('white'),
-    fillColor: new util.Color('white'),
+    fillColor: new util.Color('black'),
     opacity: undefined, depth: -1, interpolate: true,
   });
   
@@ -1286,10 +1286,6 @@ function main_trialsRoutineEnd() {
         }
     
     key_resp_2.stop();
-    psychoJS.experiment.addData("currTrial", currTrial);
-    psychoJS.experiment.addData("imgName", stimNames[currTrial]);
-    psychoJS.experiment.addData("mskName", mskNames[currTrial]);
-    psychoJS.experiment.addData("soa", soaTimes[currTrial]);
     currTrial += 1;
     
     // the Routine "main_trials" was not non-slip safe, so reset the non-slip timer
