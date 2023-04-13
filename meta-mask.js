@@ -334,7 +334,7 @@ async function experimentInit() {
     font: 'Open Sans',
     units: undefined, 
     pos: [0, 0], height: 0.1,  wrapWidth: undefined, ori: 0.0,
-    color: new util.Color('white'),  opacity: undefined,
+    color: new util.Color('black'),  opacity: undefined,
     depth: 0.0 
   });
   
