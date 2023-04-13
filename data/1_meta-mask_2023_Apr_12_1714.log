@@ -1,0 +1,240 @@
+2.0879 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.1291 	ERROR 	'0.0000, 0.0000, 0.0000' is not a valid rgb color
+8.2319 	DATA 	Mouse: Left button down, pos=(442,1373)
+8.6939 	DATA 	Mouse:  Left button up, pos=(-478,1258)
+8.7104 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='add', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DED3A09390>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DED3A897B8>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([3440, 1440]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.7108 	EXP 	window1: mouseVisible = True
+8.7109 	EXP 	window1: recordFrameIntervals = False
+8.8766 	EXP 	window1: recordFrameIntervals = True
+9.0601 	EXP 	window1: recordFrameIntervals = False
+9.5602 	WARNING 	Pyglet text does not honor the Window setting `blendMode='add'` so 'avg' will be used for the text (but objects drawn after can be added)
+9.8214 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.2979 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/1_1.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+10.7859 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/2_1.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.2820 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/3_1.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.7658 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/4_1.png', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.7659 	WARNING 	Pyglet text does not honor the Window setting `blendMode='add'` so 'avg' will be used for the text (but objects drawn after can be added)
+11.7975 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.8038 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.8104 	EXP 	Created stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='stim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.8153 	EXP 	Created mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='mask', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+11.8154 	WARNING 	Pyglet text does not honor the Window setting `blendMode='add'` so 'avg' will be used for the text (but objects drawn after can be added)
+11.8259 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank You!!', units='height', win=Window(...), wrapWidth=1)
+11.9535 	EXP 	text_3: autoDraw = True
+14.8452 	DATA 	Mouse: Left button down, pos=(2195,1050)
+14.9368 	DATA 	Mouse:  Left button up, pos=(2195,1050)
+15.8531 	DATA 	Keypress: equal
+15.8628 	EXP 	text_3: autoDraw = False
+15.8628 	EXP 	image: autoDraw = True
+17.2366 	DATA 	Keypress: q
+17.2467 	EXP 	image: autoDraw = False
+17.2467 	EXP 	image_2: autoDraw = True
+17.5198 	DATA 	Keypress: e
+17.5302 	EXP 	image_2: autoDraw = False
+17.5302 	EXP 	image_3: autoDraw = True
+18.0848 	DATA 	Keypress: d
+18.1138 	EXP 	image_3: autoDraw = False
+18.1138 	EXP 	image_4: autoDraw = True
+18.2882 	DATA 	Keypress: a
+18.2972 	EXP 	image_4: autoDraw = False
+18.2972 	EXP 	text: autoDraw = True
+18.8336 	DATA 	Keypress: equal
+21.2029 	EXP 	Created sequence: sequential, trialTypes=1, nReps=100, seed=None
+21.2033 	EXP 	New trial (rep=0, index=0): None
+21.7281 	DATA 	Keypress: equal
+21.7325 	EXP 	text: autoDraw = False
+21.7325 	EXP 	stim: image = 'imgs/1_1.png'
+21.7325 	EXP 	mask: image = 'imgs/1_2.png'
+21.7325 	EXP 	polygon: autoDraw = True
+22.7323 	EXP 	polygon: autoDraw = False
+22.7323 	EXP 	stim: autoDraw = True
+22.7657 	EXP 	stim: autoDraw = False
+22.8158 	EXP 	mask: autoDraw = True
+22.8491 	EXP 	mask: autoDraw = False
+23.4365 	DATA 	Keypress: q
+23.4561 	EXP 	New trial (rep=1, index=0): None
+23.5828 	EXP 	polygon: autoDraw = False
+23.5828 	EXP 	stim: autoDraw = False
+23.5828 	EXP 	mask: autoDraw = False
+23.5828 	EXP 	stim: image = 'imgs/4_1.png'
+23.5828 	EXP 	mask: image = 'imgs/4_2.png'
+23.5828 	EXP 	polygon: autoDraw = True
+24.5665 	EXP 	stim: autoDraw = True
+24.5831 	EXP 	polygon: autoDraw = False
+24.5999 	EXP 	stim: autoDraw = False
+24.6333 	EXP 	mask: autoDraw = True
+24.6665 	EXP 	mask: autoDraw = False
+25.3729 	EXP 	New trial (rep=2, index=0): None
+25.8564 	DATA 	Keypress: d
+25.8674 	EXP 	polygon: autoDraw = False
+25.8674 	EXP 	stim: autoDraw = False
+25.8674 	EXP 	mask: autoDraw = False
+25.8674 	EXP 	stim: image = 'imgs/3_1.png'
+25.8674 	EXP 	mask: image = 'imgs/3_2.png'
+25.8674 	EXP 	polygon: autoDraw = True
+26.8508 	EXP 	stim: autoDraw = True
+26.8675 	EXP 	polygon: autoDraw = False
+26.8842 	EXP 	stim: autoDraw = False
+27.0342 	EXP 	mask: autoDraw = True
+27.0676 	EXP 	mask: autoDraw = False
+27.8897 	EXP 	New trial (rep=3, index=0): None
+28.4181 	DATA 	Keypress: d
+28.4352 	EXP 	polygon: autoDraw = False
+28.4352 	EXP 	stim: autoDraw = False
+28.4352 	EXP 	mask: autoDraw = False
+28.4352 	EXP 	stim: image = 'imgs/2_1.png'
+28.4352 	EXP 	mask: image = 'imgs/2_2.png'
+28.4352 	EXP 	polygon: autoDraw = True
+29.4186 	EXP 	stim: autoDraw = True
+29.4352 	EXP 	polygon: autoDraw = False
+29.4519 	EXP 	stim: autoDraw = False
+29.5853 	EXP 	mask: autoDraw = True
+29.6187 	EXP 	mask: autoDraw = False
+30.3082 	EXP 	New trial (rep=4, index=0): None
+30.4256 	DATA 	Keypress: e
+30.4360 	EXP 	polygon: autoDraw = False
+30.4360 	EXP 	stim: autoDraw = False
+30.4360 	EXP 	mask: autoDraw = False
+30.4360 	EXP 	stim: image = 'imgs/2_1.png'
+30.4360 	EXP 	mask: image = 'imgs/2_2.png'
+30.4360 	EXP 	polygon: autoDraw = True
+31.4194 	EXP 	stim: autoDraw = True
+31.4361 	EXP 	polygon: autoDraw = False
+31.4528 	EXP 	stim: autoDraw = False
+31.6029 	EXP 	mask: autoDraw = True
+31.6363 	EXP 	mask: autoDraw = False
+32.0242 	DATA 	Keypress: e
+32.0424 	EXP 	New trial (rep=5, index=0): None
+32.1697 	EXP 	polygon: autoDraw = False
+32.1697 	EXP 	stim: autoDraw = False
+32.1697 	EXP 	mask: autoDraw = False
+32.1697 	EXP 	stim: image = 'imgs/4_1.png'
+32.1697 	EXP 	mask: image = 'imgs/4_2.png'
+32.1697 	EXP 	polygon: autoDraw = True
+33.1535 	EXP 	stim: autoDraw = True
+33.1702 	EXP 	polygon: autoDraw = False
+33.1869 	EXP 	stim: autoDraw = False
+33.3370 	EXP 	mask: autoDraw = True
+33.3703 	EXP 	mask: autoDraw = False
+33.9430 	EXP 	New trial (rep=6, index=0): None
+34.0617 	DATA 	Keypress: a
+34.0706 	EXP 	polygon: autoDraw = False
+34.0706 	EXP 	stim: autoDraw = False
+34.0706 	EXP 	mask: autoDraw = False
+34.0706 	EXP 	stim: image = 'imgs/1_1.png'
+34.0706 	EXP 	mask: image = 'imgs/1_2.png'
+34.0706 	EXP 	polygon: autoDraw = True
+35.0543 	EXP 	stim: autoDraw = True
+35.0710 	EXP 	polygon: autoDraw = False
+35.0877 	EXP 	stim: autoDraw = False
+35.1877 	EXP 	mask: autoDraw = True
+35.2211 	EXP 	mask: autoDraw = False
+38.3097 	DATA 	Keypress: equal
+39.0459 	EXP 	New trial (rep=7, index=0): None
+39.5273 	DATA 	Keypress: a
+39.5275 	DATA 	Keypress: s
+39.5277 	DATA 	Keypress: d
+39.5400 	EXP 	polygon: autoDraw = False
+39.5400 	EXP 	stim: autoDraw = False
+39.5400 	EXP 	mask: autoDraw = False
+39.5400 	EXP 	stim: image = 'imgs/3_1.png'
+39.5400 	EXP 	mask: image = 'imgs/3_2.png'
+39.5400 	EXP 	polygon: autoDraw = True
+40.5233 	EXP 	stim: autoDraw = True
+40.5400 	EXP 	polygon: autoDraw = False
+40.5566 	EXP 	stim: autoDraw = False
+40.6734 	EXP 	mask: autoDraw = True
+40.7068 	EXP 	mask: autoDraw = False
+41.6784 	DATA 	Keypress: d
+41.6963 	EXP 	New trial (rep=8, index=0): None
+42.2411 	EXP 	polygon: autoDraw = False
+42.2411 	EXP 	stim: autoDraw = False
+42.2411 	EXP 	mask: autoDraw = False
+42.2411 	EXP 	stim: image = 'imgs/1_1.png'
+42.2411 	EXP 	mask: image = 'imgs/1_2.png'
+42.2411 	EXP 	polygon: autoDraw = True
+43.2245 	EXP 	stim: autoDraw = True
+43.2412 	EXP 	polygon: autoDraw = False
+43.2579 	EXP 	stim: autoDraw = False
+43.3079 	EXP 	mask: autoDraw = True
+43.3412 	EXP 	mask: autoDraw = False
+45.0154 	EXP 	New trial (rep=9, index=0): None
+45.1343 	DATA 	Keypress: d
+45.1421 	EXP 	polygon: autoDraw = False
+45.1421 	EXP 	stim: autoDraw = False
+45.1421 	EXP 	mask: autoDraw = False
+45.1421 	EXP 	stim: image = 'imgs/1_1.png'
+45.1421 	EXP 	mask: image = 'imgs/1_2.png'
+45.1421 	EXP 	polygon: autoDraw = True
+46.1257 	EXP 	stim: autoDraw = True
+46.1424 	EXP 	polygon: autoDraw = False
+46.1590 	EXP 	stim: autoDraw = False
+46.2091 	EXP 	mask: autoDraw = True
+46.2424 	EXP 	mask: autoDraw = False
+47.2317 	EXP 	New trial (rep=10, index=0): None
+47.7186 	DATA 	Keypress: e
+47.7268 	EXP 	polygon: autoDraw = False
+47.7268 	EXP 	stim: autoDraw = False
+47.7268 	EXP 	mask: autoDraw = False
+47.7268 	EXP 	stim: image = 'imgs/3_1.png'
+47.7268 	EXP 	mask: image = 'imgs/3_2.png'
+47.7268 	EXP 	polygon: autoDraw = True
+48.7102 	EXP 	stim: autoDraw = True
+48.7268 	EXP 	polygon: autoDraw = False
+48.7435 	EXP 	stim: autoDraw = False
+48.8770 	EXP 	mask: autoDraw = True
+48.9103 	EXP 	mask: autoDraw = False
+49.4333 	EXP 	New trial (rep=11, index=0): None
+49.9672 	DATA 	Keypress: d
+49.9778 	EXP 	polygon: autoDraw = False
+49.9778 	EXP 	stim: autoDraw = False
+49.9778 	EXP 	mask: autoDraw = False
+49.9778 	EXP 	stim: image = 'imgs/4_1.png'
+49.9778 	EXP 	mask: image = 'imgs/4_2.png'
+49.9778 	EXP 	polygon: autoDraw = True
+50.9611 	EXP 	stim: autoDraw = True
+50.9778 	EXP 	polygon: autoDraw = False
+50.9945 	EXP 	stim: autoDraw = False
+51.0945 	EXP 	mask: autoDraw = True
+51.1279 	EXP 	mask: autoDraw = False
+51.5171 	EXP 	New trial (rep=12, index=0): None
+52.0009 	DATA 	Keypress: a
+52.0120 	EXP 	polygon: autoDraw = False
+52.0120 	EXP 	stim: autoDraw = False
+52.0120 	EXP 	mask: autoDraw = False
+52.0120 	EXP 	stim: image = 'imgs/3_1.png'
+52.0120 	EXP 	mask: image = 'imgs/3_2.png'
+52.0120 	EXP 	polygon: autoDraw = True
+52.9953 	EXP 	stim: autoDraw = True
+53.0120 	EXP 	polygon: autoDraw = False
+53.0287 	EXP 	stim: autoDraw = False
+53.1454 	EXP 	mask: autoDraw = True
+53.1787 	EXP 	mask: autoDraw = False
+53.7030 	EXP 	New trial (rep=13, index=0): None
+54.2427 	DATA 	Keypress: d
+54.2462 	EXP 	polygon: autoDraw = False
+54.2462 	EXP 	stim: autoDraw = False
+54.2462 	EXP 	mask: autoDraw = False
+54.2462 	EXP 	stim: image = 'imgs/4_1.png'
+54.2462 	EXP 	mask: image = 'imgs/4_2.png'
+54.2462 	EXP 	polygon: autoDraw = True
+55.2463 	EXP 	polygon: autoDraw = False
+55.2463 	EXP 	stim: autoDraw = True
+55.2797 	EXP 	stim: autoDraw = False
+55.4297 	EXP 	mask: autoDraw = True
+55.4631 	EXP 	mask: autoDraw = False
+55.7865 	EXP 	New trial (rep=14, index=0): None
+56.2689 	DATA 	Keypress: a
+56.2804 	EXP 	polygon: autoDraw = False
+56.2804 	EXP 	stim: autoDraw = False
+56.2804 	EXP 	mask: autoDraw = False
+56.2804 	EXP 	stim: image = 'imgs/3_1.png'
+56.2804 	EXP 	mask: image = 'imgs/3_2.png'
+56.2804 	EXP 	polygon: autoDraw = True
+57.2638 	EXP 	stim: autoDraw = True
+57.2805 	EXP 	polygon: autoDraw = False
+57.2972 	EXP 	stim: autoDraw = False
+57.4306 	EXP 	mask: autoDraw = True
+57.4639 	EXP 	mask: autoDraw = False
+57.6681 	DATA 	Keypress: escape
+57.8245 	EXP 	window1: mouseVisible = True
