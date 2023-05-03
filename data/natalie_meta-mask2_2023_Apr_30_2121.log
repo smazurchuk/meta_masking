@@ -1,0 +1,1267 @@
+2.0224 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+12.0129 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002059F173C50>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002059F0DF0F0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([3440, 1440]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+12.0135 	EXP 	window1: mouseVisible = True
+12.0136 	EXP 	window1: recordFrameIntervals = False
+12.1793 	EXP 	window1: recordFrameIntervals = True
+12.3629 	EXP 	window1: recordFrameIntervals = False
+12.9874 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.1219 	EXP 	Created image_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/mask.png', interpolate=True, mask=None, maskParams=None, name='image_5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.2353 	EXP 	Created image_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='imgs/1_stim.png', interpolate=True, mask=None, maskParams=None, name='image_6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.3496 	EXP 	Created image_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='imgs/2_stim.png', interpolate=True, mask=None, maskParams=None, name='image_7', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.4647 	EXP 	Created image_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='imgs/4_stim.png', interpolate=True, mask=None, maskParams=None, name='image_8', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.5795 	EXP 	Created image_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='imgs/3_stim.png', interpolate=True, mask=None, maskParams=None, name='image_9', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.5829 	EXP 	Created polygon_6 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-6.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon_6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.7019 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/2_stim.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.7042 	EXP 	Created polygon_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.8174 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/4_stim.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.8199 	EXP 	Created polygon_3 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+13.9351 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/3_stim.png', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+13.9390 	EXP 	Created polygon_4 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.0569 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='imgs/1_stim.png', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+14.0592 	EXP 	Created polygon_5 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon_5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.0696 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Press '=' to continue to main trials", units='height', win=Window(...), wrapWidth=1)
+14.0722 	EXP 	Created polygon = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([0.00392157, 0.00392157, 0.00392157]), fillColorSpace='rgb', fillRGB=array([0.00392157, 0.00392157, 0.00392157]), interpolate=False, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='polygon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+14.0765 	EXP 	Created stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=False, mask=None, maskParams=None, name='stim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+14.1414 	EXP 	Created mask = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='imgs/mask.png', interpolate=False, mask=None, maskParams=None, name='mask', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+14.1496 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you!!', units='height', win=Window(...), wrapWidth=1)
+14.2694 	EXP 	text: autoDraw = True
+22.6380 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+22.6382 	EXP 	New trial (rep=0, index=0): None
+22.6440 	DATA 	Keypress: equal
+22.6504 	EXP 	text: autoDraw = False
+22.6504 	EXP 	image_5: autoDraw = True
+22.6504 	EXP 	image_6: autoDraw = True
+22.6504 	EXP 	image_7: autoDraw = True
+22.6504 	EXP 	image_8: autoDraw = True
+22.6504 	EXP 	image_9: autoDraw = True
+22.6504 	EXP 	polygon_6: autoDraw = True
+23.4627 	DATA 	Keypress: 1
+23.4673 	EXP 	image_5: autoDraw = False
+23.4673 	EXP 	image_6: autoDraw = False
+23.4673 	EXP 	image_7: autoDraw = False
+23.4673 	EXP 	image_8: autoDraw = False
+23.4673 	EXP 	image_9: autoDraw = False
+23.4673 	EXP 	polygon_6: autoDraw = False
+23.4673 	EXP 	image: autoDraw = True
+23.4673 	EXP 	polygon_2: autoDraw = True
+24.7123 	DATA 	Keypress: q
+24.7179 	EXP 	image: autoDraw = False
+24.7179 	EXP 	polygon_2: autoDraw = False
+24.7179 	EXP 	image_2: autoDraw = True
+24.7179 	EXP 	polygon_3: autoDraw = True
+25.0732 	DATA 	Keypress: e
+25.1014 	EXP 	image_2: autoDraw = False
+25.1014 	EXP 	polygon_3: autoDraw = False
+25.1014 	EXP 	image_3: autoDraw = True
+25.1014 	EXP 	polygon_4: autoDraw = True
+25.7624 	DATA 	Keypress: d
+25.7684 	EXP 	image_3: autoDraw = False
+25.7684 	EXP 	polygon_4: autoDraw = False
+25.7684 	EXP 	image_4: autoDraw = True
+25.7684 	EXP 	polygon_5: autoDraw = True
+25.9066 	DATA 	Keypress: a
+25.9351 	EXP 	image_4: autoDraw = False
+25.9351 	EXP 	polygon_5: autoDraw = False
+25.9351 	EXP 	text_2: autoDraw = True
+33.2925 	EXP 	Created sequence: sequential, trialTypes=1, nReps=100, seed=None
+33.2930 	EXP 	New trial (rep=0, index=0): None
+33.3112 	DATA 	Keypress: equal
+33.3216 	EXP 	text_2: autoDraw = False
+33.3216 	EXP 	stim: image = 'imgs/2_stim.png'
+33.3216 	EXP 	polygon: autoDraw = True
+34.1720 	EXP 	polygon: autoDraw = False
+34.3887 	EXP 	stim: autoDraw = True
+34.4220 	EXP 	stim: autoDraw = False
+34.5055 	EXP 	mask: autoDraw = True
+34.5388 	EXP 	mask: autoDraw = False
+34.8625 	EXP 	New trial (rep=1, index=0): None
+34.8793 	DATA 	Keypress: q
+34.8889 	EXP 	polygon: autoDraw = False
+34.8889 	EXP 	stim: autoDraw = False
+34.8889 	EXP 	mask: autoDraw = False
+34.8889 	EXP 	stim: image = 'imgs/3_stim.png'
+34.8889 	EXP 	polygon: autoDraw = True
+35.6226 	EXP 	polygon: autoDraw = False
+35.8394 	EXP 	stim: autoDraw = True
+35.8727 	EXP 	stim: autoDraw = False
+35.9727 	EXP 	mask: autoDraw = True
+36.0061 	EXP 	mask: autoDraw = False
+36.4459 	EXP 	New trial (rep=2, index=0): None
+36.4621 	DATA 	Keypress: d
+36.4729 	EXP 	polygon: autoDraw = False
+36.4729 	EXP 	stim: autoDraw = False
+36.4729 	EXP 	mask: autoDraw = False
+36.4729 	EXP 	stim: image = 'imgs/2_stim.png'
+36.4729 	EXP 	polygon: autoDraw = True
+36.9898 	EXP 	polygon: autoDraw = False
+37.3233 	EXP 	stim: autoDraw = True
+37.3567 	EXP 	stim: autoDraw = False
+37.4567 	EXP 	mask: autoDraw = True
+37.4900 	EXP 	mask: autoDraw = False
+37.6468 	EXP 	New trial (rep=3, index=0): None
+37.6634 	DATA 	Keypress: q
+37.6735 	EXP 	polygon: autoDraw = False
+37.6735 	EXP 	stim: autoDraw = False
+37.6735 	EXP 	mask: autoDraw = False
+37.6735 	EXP 	stim: image = 'imgs/4_stim.png'
+37.6735 	EXP 	polygon: autoDraw = True
+38.4738 	EXP 	stim: autoDraw = True
+38.4905 	EXP 	polygon: autoDraw = False
+38.5071 	EXP 	stim: autoDraw = False
+38.5238 	EXP 	mask: autoDraw = True
+38.5572 	EXP 	mask: autoDraw = False
+38.9466 	EXP 	New trial (rep=4, index=0): None
+38.9631 	DATA 	Keypress: e
+38.9741 	EXP 	polygon: autoDraw = False
+38.9741 	EXP 	stim: autoDraw = False
+38.9741 	EXP 	mask: autoDraw = False
+38.9741 	EXP 	stim: image = 'imgs/4_stim.png'
+38.9741 	EXP 	polygon: autoDraw = True
+39.7410 	EXP 	polygon: autoDraw = False
+40.1079 	EXP 	stim: autoDraw = True
+40.1412 	EXP 	stim: autoDraw = False
+40.2079 	EXP 	mask: autoDraw = True
+40.2412 	EXP 	mask: autoDraw = False
+40.4474 	EXP 	New trial (rep=5, index=0): None
+40.4639 	DATA 	Keypress: e
+40.4747 	EXP 	polygon: autoDraw = False
+40.4747 	EXP 	stim: autoDraw = False
+40.4747 	EXP 	mask: autoDraw = False
+40.4747 	EXP 	stim: image = 'imgs/1_stim.png'
+40.4747 	EXP 	polygon: autoDraw = True
+41.4418 	EXP 	polygon: autoDraw = False
+41.4418 	EXP 	stim: autoDraw = True
+41.4751 	EXP 	stim: autoDraw = False
+41.5751 	EXP 	mask: autoDraw = True
+41.6085 	EXP 	mask: autoDraw = False
+42.2481 	EXP 	New trial (rep=6, index=0): None
+42.2646 	DATA 	Keypress: a
+42.2754 	EXP 	polygon: autoDraw = False
+42.2754 	EXP 	stim: autoDraw = False
+42.2754 	EXP 	mask: autoDraw = False
+42.2754 	EXP 	stim: image = 'imgs/3_stim.png'
+42.2754 	EXP 	polygon: autoDraw = True
+42.8758 	EXP 	polygon: autoDraw = False
+43.2425 	EXP 	stim: autoDraw = True
+43.2759 	EXP 	stim: autoDraw = False
+43.3592 	EXP 	mask: autoDraw = True
+43.3926 	EXP 	mask: autoDraw = False
+43.6493 	EXP 	New trial (rep=7, index=0): None
+43.6658 	DATA 	Keypress: d
+43.6760 	EXP 	polygon: autoDraw = False
+43.6760 	EXP 	stim: autoDraw = False
+43.6760 	EXP 	mask: autoDraw = False
+43.6760 	EXP 	stim: image = 'imgs/4_stim.png'
+43.6760 	EXP 	polygon: autoDraw = True
+44.6431 	EXP 	polygon: autoDraw = False
+44.8099 	EXP 	stim: autoDraw = True
+44.8432 	EXP 	stim: autoDraw = False
+44.8932 	EXP 	mask: autoDraw = True
+44.9266 	EXP 	mask: autoDraw = False
+45.1493 	EXP 	New trial (rep=8, index=0): None
+45.1658 	DATA 	Keypress: e
+45.1767 	EXP 	polygon: autoDraw = False
+45.1767 	EXP 	stim: autoDraw = False
+45.1767 	EXP 	mask: autoDraw = False
+45.1767 	EXP 	stim: image = 'imgs/1_stim.png'
+45.1767 	EXP 	polygon: autoDraw = True
+45.6497 	EXP 	New trial (rep=9, index=0): None
+45.6658 	DATA 	Keypress: e
+45.6769 	EXP 	polygon: autoDraw = False
+45.6769 	EXP 	stim: autoDraw = False
+45.6769 	EXP 	mask: autoDraw = False
+45.6769 	EXP 	stim: image = 'imgs/1_stim.png'
+45.6769 	EXP 	polygon: autoDraw = True
+46.5940 	EXP 	polygon: autoDraw = False
+46.8774 	EXP 	stim: autoDraw = True
+46.9107 	EXP 	stim: autoDraw = False
+46.9274 	EXP 	mask: autoDraw = True
+46.9608 	EXP 	mask: autoDraw = False
+48.3845 	EXP 	New trial (rep=10, index=0): None
+48.4010 	DATA 	Keypress: a
+48.4114 	EXP 	polygon: autoDraw = False
+48.4114 	EXP 	stim: autoDraw = False
+48.4114 	EXP 	mask: autoDraw = False
+48.4114 	EXP 	stim: image = 'imgs/2_stim.png'
+48.4114 	EXP 	polygon: autoDraw = True
+49.1784 	EXP 	polygon: autoDraw = False
+49.6453 	EXP 	stim: autoDraw = True
+49.6786 	EXP 	stim: autoDraw = False
+49.6954 	EXP 	mask: autoDraw = True
+49.7286 	EXP 	mask: autoDraw = False
+50.3353 	EXP 	New trial (rep=11, index=0): None
+50.3518 	DATA 	Keypress: q
+50.3622 	EXP 	polygon: autoDraw = False
+50.3622 	EXP 	stim: autoDraw = False
+50.3622 	EXP 	mask: autoDraw = False
+50.3622 	EXP 	stim: image = 'imgs/3_stim.png'
+50.3622 	EXP 	polygon: autoDraw = True
+50.9458 	EXP 	polygon: autoDraw = False
+51.2126 	EXP 	stim: autoDraw = True
+51.2459 	EXP 	stim: autoDraw = False
+51.2626 	EXP 	mask: autoDraw = True
+51.2960 	EXP 	mask: autoDraw = False
+52.2197 	EXP 	New trial (rep=12, index=0): None
+52.2362 	DATA 	Keypress: d
+52.2464 	EXP 	polygon: autoDraw = False
+52.2464 	EXP 	stim: autoDraw = False
+52.2464 	EXP 	mask: autoDraw = False
+52.2464 	EXP 	stim: image = 'imgs/2_stim.png'
+52.2464 	EXP 	polygon: autoDraw = True
+52.9300 	EXP 	polygon: autoDraw = False
+53.3969 	EXP 	stim: autoDraw = True
+53.4302 	EXP 	stim: autoDraw = False
+53.5303 	EXP 	mask: autoDraw = True
+53.5636 	EXP 	mask: autoDraw = False
+53.8034 	EXP 	New trial (rep=13, index=0): None
+53.8198 	DATA 	Keypress: q
+53.8304 	EXP 	polygon: autoDraw = False
+53.8304 	EXP 	stim: autoDraw = False
+53.8304 	EXP 	mask: autoDraw = False
+53.8304 	EXP 	stim: image = 'imgs/1_stim.png'
+53.8304 	EXP 	polygon: autoDraw = True
+54.5473 	EXP 	polygon: autoDraw = False
+54.5473 	EXP 	stim: autoDraw = True
+54.5808 	EXP 	stim: autoDraw = False
+54.6474 	EXP 	mask: autoDraw = True
+54.6808 	EXP 	mask: autoDraw = False
+55.1705 	EXP 	New trial (rep=14, index=0): None
+55.1871 	DATA 	Keypress: a
+55.1977 	EXP 	polygon: autoDraw = False
+55.1977 	EXP 	stim: autoDraw = False
+55.1977 	EXP 	mask: autoDraw = False
+55.1977 	EXP 	stim: image = 'imgs/4_stim.png'
+55.1977 	EXP 	polygon: autoDraw = True
+55.7479 	EXP 	polygon: autoDraw = False
+55.8146 	EXP 	stim: autoDraw = True
+55.8479 	EXP 	stim: autoDraw = False
+55.8479 	EXP 	mask: autoDraw = True
+55.8812 	EXP 	mask: autoDraw = False
+57.2380 	EXP 	New trial (rep=15, index=0): None
+57.2542 	DATA 	Keypress: e
+57.2652 	EXP 	polygon: autoDraw = False
+57.2652 	EXP 	stim: autoDraw = False
+57.2652 	EXP 	mask: autoDraw = False
+57.2652 	EXP 	stim: image = 'imgs/2_stim.png'
+57.2652 	EXP 	polygon: autoDraw = True
+58.1322 	EXP 	polygon: autoDraw = False
+58.5157 	EXP 	stim: autoDraw = True
+58.5491 	EXP 	stim: autoDraw = False
+58.5491 	EXP 	mask: autoDraw = True
+58.5825 	EXP 	mask: autoDraw = False
+59.3057 	EXP 	New trial (rep=16, index=0): None
+59.3222 	DATA 	Keypress: a
+59.3328 	EXP 	polygon: autoDraw = False
+59.3328 	EXP 	stim: autoDraw = False
+59.3328 	EXP 	mask: autoDraw = False
+59.3328 	EXP 	stim: image = 'imgs/1_stim.png'
+59.3328 	EXP 	polygon: autoDraw = True
+60.2165 	EXP 	stim: autoDraw = True
+60.2498 	EXP 	polygon: autoDraw = False
+60.2498 	EXP 	stim: autoDraw = False
+60.2832 	EXP 	mask: autoDraw = True
+60.3165 	EXP 	mask: autoDraw = False
+61.2228 	EXP 	New trial (rep=17, index=0): None
+61.2392 	DATA 	Keypress: d
+61.2503 	EXP 	polygon: autoDraw = False
+61.2503 	EXP 	stim: autoDraw = False
+61.2503 	EXP 	mask: autoDraw = False
+61.2503 	EXP 	stim: image = 'imgs/2_stim.png'
+61.2503 	EXP 	polygon: autoDraw = True
+62.2507 	EXP 	polygon: autoDraw = False
+62.3841 	EXP 	stim: autoDraw = True
+62.4174 	EXP 	stim: autoDraw = False
+62.4341 	EXP 	mask: autoDraw = True
+62.4675 	EXP 	mask: autoDraw = False
+63.2409 	EXP 	New trial (rep=18, index=0): None
+63.2573 	DATA 	Keypress: a
+63.2677 	EXP 	polygon: autoDraw = False
+63.2677 	EXP 	stim: autoDraw = False
+63.2677 	EXP 	mask: autoDraw = False
+63.2677 	EXP 	stim: image = 'imgs/2_stim.png'
+63.2677 	EXP 	polygon: autoDraw = True
+63.8680 	EXP 	polygon: autoDraw = False
+64.1014 	EXP 	stim: autoDraw = True
+64.1348 	EXP 	stim: autoDraw = False
+64.2515 	EXP 	mask: autoDraw = True
+64.2848 	EXP 	mask: autoDraw = False
+64.4911 	EXP 	New trial (rep=19, index=0): None
+64.5083 	DATA 	Keypress: q
+64.5183 	EXP 	polygon: autoDraw = False
+64.5183 	EXP 	stim: autoDraw = False
+64.5183 	EXP 	mask: autoDraw = False
+64.5183 	EXP 	stim: image = 'imgs/2_stim.png'
+64.5183 	EXP 	polygon: autoDraw = True
+65.2520 	EXP 	polygon: autoDraw = False
+65.3520 	EXP 	stim: autoDraw = True
+65.3853 	EXP 	stim: autoDraw = False
+65.4854 	EXP 	mask: autoDraw = True
+65.5187 	EXP 	mask: autoDraw = False
+66.8408 	DATA 	Keypress: q
+66.8590 	EXP 	New trial (rep=20, index=0): None
+66.8860 	EXP 	polygon: autoDraw = False
+66.8860 	EXP 	stim: autoDraw = False
+66.8860 	EXP 	mask: autoDraw = False
+66.8860 	EXP 	stim: image = 'imgs/2_stim.png'
+66.8860 	EXP 	polygon: autoDraw = True
+67.8197 	EXP 	polygon: autoDraw = False
+68.2199 	EXP 	stim: autoDraw = True
+68.2532 	EXP 	stim: autoDraw = False
+68.3366 	EXP 	mask: autoDraw = True
+68.3700 	EXP 	mask: autoDraw = False
+69.2248 	DATA 	Keypress: q
+69.2430 	EXP 	New trial (rep=21, index=0): None
+69.2703 	EXP 	polygon: autoDraw = False
+69.2703 	EXP 	stim: autoDraw = False
+69.2703 	EXP 	mask: autoDraw = False
+69.2703 	EXP 	stim: image = 'imgs/4_stim.png'
+69.2703 	EXP 	polygon: autoDraw = True
+69.9040 	EXP 	polygon: autoDraw = False
+70.2708 	EXP 	stim: autoDraw = True
+70.3042 	EXP 	stim: autoDraw = False
+70.3875 	EXP 	mask: autoDraw = True
+70.4209 	EXP 	mask: autoDraw = False
+70.7271 	EXP 	New trial (rep=22, index=0): None
+70.7438 	DATA 	Keypress: e
+70.7543 	EXP 	polygon: autoDraw = False
+70.7543 	EXP 	stim: autoDraw = False
+70.7543 	EXP 	mask: autoDraw = False
+70.7543 	EXP 	stim: image = 'imgs/3_stim.png'
+70.7543 	EXP 	polygon: autoDraw = True
+71.5880 	EXP 	polygon: autoDraw = False
+71.6047 	EXP 	stim: autoDraw = True
+71.6380 	EXP 	stim: autoDraw = False
+71.6881 	EXP 	mask: autoDraw = True
+71.7214 	EXP 	mask: autoDraw = False
+71.9940 	EXP 	New trial (rep=23, index=0): None
+72.0105 	DATA 	Keypress: d
+72.0215 	EXP 	polygon: autoDraw = False
+72.0215 	EXP 	stim: autoDraw = False
+72.0215 	EXP 	mask: autoDraw = False
+72.0215 	EXP 	stim: image = 'imgs/3_stim.png'
+72.0215 	EXP 	polygon: autoDraw = True
+72.7551 	EXP 	polygon: autoDraw = False
+73.1387 	EXP 	stim: autoDraw = True
+73.1720 	EXP 	stim: autoDraw = False
+73.2888 	EXP 	mask: autoDraw = True
+73.3221 	EXP 	mask: autoDraw = False
+73.5619 	EXP 	New trial (rep=24, index=0): None
+73.5794 	DATA 	Keypress: d
+73.5889 	EXP 	polygon: autoDraw = False
+73.5889 	EXP 	stim: autoDraw = False
+73.5889 	EXP 	mask: autoDraw = False
+73.5889 	EXP 	stim: image = 'imgs/4_stim.png'
+73.5889 	EXP 	polygon: autoDraw = True
+74.2559 	EXP 	polygon: autoDraw = False
+74.5060 	EXP 	stim: autoDraw = True
+74.5393 	EXP 	stim: autoDraw = False
+74.6060 	EXP 	mask: autoDraw = True
+74.6393 	EXP 	mask: autoDraw = False
+75.7794 	EXP 	New trial (rep=25, index=0): None
+75.7967 	DATA 	Keypress: e
+75.8065 	EXP 	polygon: autoDraw = False
+75.8065 	EXP 	stim: autoDraw = False
+75.8065 	EXP 	mask: autoDraw = False
+75.8065 	EXP 	stim: image = 'imgs/1_stim.png'
+75.8065 	EXP 	polygon: autoDraw = True
+76.8069 	EXP 	polygon: autoDraw = False
+76.9236 	EXP 	stim: autoDraw = True
+76.9570 	EXP 	stim: autoDraw = False
+77.0237 	EXP 	mask: autoDraw = True
+77.0570 	EXP 	mask: autoDraw = False
+77.5132 	EXP 	New trial (rep=26, index=0): None
+77.5296 	DATA 	Keypress: a
+77.5405 	EXP 	polygon: autoDraw = False
+77.5405 	EXP 	stim: autoDraw = False
+77.5405 	EXP 	mask: autoDraw = False
+77.5405 	EXP 	stim: image = 'imgs/1_stim.png'
+77.5405 	EXP 	polygon: autoDraw = True
+78.1075 	EXP 	polygon: autoDraw = False
+78.3242 	EXP 	stim: autoDraw = True
+78.3576 	EXP 	stim: autoDraw = False
+78.3743 	EXP 	mask: autoDraw = True
+78.4076 	EXP 	mask: autoDraw = False
+79.3977 	EXP 	New trial (rep=27, index=0): None
+79.4145 	DATA 	Keypress: q
+79.4247 	EXP 	polygon: autoDraw = False
+79.4247 	EXP 	stim: autoDraw = False
+79.4247 	EXP 	mask: autoDraw = False
+79.4247 	EXP 	stim: image = 'imgs/2_stim.png'
+79.4247 	EXP 	polygon: autoDraw = True
+80.3585 	EXP 	polygon: autoDraw = False
+80.3751 	EXP 	stim: autoDraw = True
+80.4085 	EXP 	stim: autoDraw = False
+80.4751 	EXP 	mask: autoDraw = True
+80.5085 	EXP 	mask: autoDraw = False
+81.6649 	EXP 	New trial (rep=28, index=0): None
+81.6813 	DATA 	Keypress: a
+81.6923 	EXP 	polygon: autoDraw = False
+81.6923 	EXP 	stim: autoDraw = False
+81.6923 	EXP 	mask: autoDraw = False
+81.6923 	EXP 	stim: image = 'imgs/1_stim.png'
+81.6923 	EXP 	polygon: autoDraw = True
+82.3759 	EXP 	polygon: autoDraw = False
+82.7262 	EXP 	stim: autoDraw = True
+82.7595 	EXP 	stim: autoDraw = False
+82.7928 	EXP 	mask: autoDraw = True
+82.8262 	EXP 	mask: autoDraw = False
+84.6837 	EXP 	New trial (rep=29, index=0): None
+84.6992 	DATA 	Keypress: q
+84.7104 	EXP 	polygon: autoDraw = False
+84.7104 	EXP 	stim: autoDraw = False
+84.7104 	EXP 	mask: autoDraw = False
+84.7104 	EXP 	stim: image = 'imgs/2_stim.png'
+84.7104 	EXP 	polygon: autoDraw = True
+85.2772 	EXP 	polygon: autoDraw = False
+85.3273 	EXP 	stim: autoDraw = True
+85.3606 	EXP 	stim: autoDraw = False
+85.3940 	EXP 	mask: autoDraw = True
+85.4273 	EXP 	mask: autoDraw = False
+85.9167 	EXP 	New trial (rep=30, index=0): None
+85.9332 	DATA 	Keypress: a
+85.9442 	EXP 	polygon: autoDraw = False
+85.9442 	EXP 	stim: autoDraw = False
+85.9442 	EXP 	mask: autoDraw = False
+85.9442 	EXP 	stim: image = 'imgs/4_stim.png'
+85.9442 	EXP 	polygon: autoDraw = True
+86.5778 	EXP 	polygon: autoDraw = False
+86.9613 	EXP 	stim: autoDraw = True
+86.9946 	EXP 	stim: autoDraw = False
+87.0113 	EXP 	mask: autoDraw = True
+87.0448 	EXP 	mask: autoDraw = False
+87.4990 	DATA 	Keypress: e
+87.5172 	EXP 	New trial (rep=31, index=0): None
+87.5448 	EXP 	polygon: autoDraw = False
+87.5448 	EXP 	stim: autoDraw = False
+87.5448 	EXP 	mask: autoDraw = False
+87.5448 	EXP 	stim: image = 'imgs/3_stim.png'
+87.5448 	EXP 	polygon: autoDraw = True
+88.1284 	EXP 	polygon: autoDraw = False
+88.4453 	EXP 	stim: autoDraw = True
+88.4786 	EXP 	stim: autoDraw = False
+88.5453 	EXP 	mask: autoDraw = True
+88.5786 	EXP 	mask: autoDraw = False
+88.8512 	EXP 	New trial (rep=32, index=0): None
+88.8677 	DATA 	Keypress: d
+88.8788 	EXP 	polygon: autoDraw = False
+88.8788 	EXP 	stim: autoDraw = False
+88.8788 	EXP 	mask: autoDraw = False
+88.8788 	EXP 	stim: image = 'imgs/4_stim.png'
+88.8788 	EXP 	polygon: autoDraw = True
+89.8291 	EXP 	polygon: autoDraw = False
+89.8792 	EXP 	stim: autoDraw = True
+89.9126 	EXP 	stim: autoDraw = False
+89.9292 	EXP 	mask: autoDraw = True
+89.9626 	EXP 	mask: autoDraw = False
+90.6693 	EXP 	New trial (rep=33, index=0): None
+90.6847 	DATA 	Keypress: a
+90.6962 	EXP 	polygon: autoDraw = False
+90.6962 	EXP 	stim: autoDraw = False
+90.6962 	EXP 	mask: autoDraw = False
+90.6962 	EXP 	stim: image = 'imgs/2_stim.png'
+90.6962 	EXP 	polygon: autoDraw = True
+91.4632 	EXP 	polygon: autoDraw = False
+91.7134 	EXP 	stim: autoDraw = True
+91.7467 	EXP 	stim: autoDraw = False
+91.8300 	EXP 	mask: autoDraw = True
+91.8634 	EXP 	mask: autoDraw = False
+92.1363 	EXP 	New trial (rep=34, index=0): None
+92.1529 	DATA 	Keypress: q
+92.1635 	EXP 	polygon: autoDraw = False
+92.1635 	EXP 	stim: autoDraw = False
+92.1635 	EXP 	mask: autoDraw = False
+92.1635 	EXP 	stim: image = 'imgs/4_stim.png'
+92.1635 	EXP 	polygon: autoDraw = True
+92.7138 	EXP 	polygon: autoDraw = False
+92.7471 	EXP 	stim: autoDraw = True
+92.7804 	EXP 	stim: autoDraw = False
+92.8805 	EXP 	mask: autoDraw = True
+92.9139 	EXP 	mask: autoDraw = False
+94.0355 	DATA 	Keypress: a
+94.0535 	EXP 	New trial (rep=35, index=0): None
+94.0810 	EXP 	polygon: autoDraw = False
+94.0810 	EXP 	stim: autoDraw = False
+94.0810 	EXP 	mask: autoDraw = False
+94.0810 	EXP 	stim: image = 'imgs/4_stim.png'
+94.0810 	EXP 	polygon: autoDraw = True
+94.5979 	EXP 	polygon: autoDraw = False
+94.9147 	EXP 	stim: autoDraw = True
+94.9480 	EXP 	stim: autoDraw = False
+94.9480 	EXP 	mask: autoDraw = True
+94.9814 	EXP 	mask: autoDraw = False
+96.4549 	EXP 	New trial (rep=36, index=0): None
+96.4723 	DATA 	Keypress: d
+96.4820 	EXP 	polygon: autoDraw = False
+96.4820 	EXP 	stim: autoDraw = False
+96.4820 	EXP 	mask: autoDraw = False
+96.4820 	EXP 	stim: image = 'imgs/3_stim.png'
+96.4820 	EXP 	polygon: autoDraw = True
+97.2824 	EXP 	polygon: autoDraw = False
+97.5992 	EXP 	stim: autoDraw = True
+97.6326 	EXP 	stim: autoDraw = False
+97.7326 	EXP 	mask: autoDraw = True
+97.7659 	EXP 	mask: autoDraw = False
+98.0704 	DATA 	Keypress: d
+98.0886 	EXP 	New trial (rep=37, index=0): None
+98.1160 	EXP 	polygon: autoDraw = False
+98.1160 	EXP 	stim: autoDraw = False
+98.1160 	EXP 	mask: autoDraw = False
+98.1160 	EXP 	stim: image = 'imgs/2_stim.png'
+98.1160 	EXP 	polygon: autoDraw = True
+99.1165 	EXP 	polygon: autoDraw = False
+99.3666 	EXP 	stim: autoDraw = True
+99.4000 	EXP 	stim: autoDraw = False
+99.4333 	EXP 	mask: autoDraw = True
+99.4666 	EXP 	mask: autoDraw = False
+100.0895 	EXP 	New trial (rep=38, index=0): None
+100.1061 	DATA 	Keypress: a
+100.1169 	EXP 	polygon: autoDraw = False
+100.1169 	EXP 	stim: autoDraw = False
+100.1169 	EXP 	mask: autoDraw = False
+100.1169 	EXP 	stim: image = 'imgs/1_stim.png'
+100.1169 	EXP 	polygon: autoDraw = True
+101.1174 	EXP 	polygon: autoDraw = False
+101.4175 	EXP 	stim: autoDraw = True
+101.4508 	EXP 	stim: autoDraw = False
+101.5342 	EXP 	mask: autoDraw = True
+101.5675 	EXP 	mask: autoDraw = False
+101.8574 	EXP 	New trial (rep=39, index=0): None
+101.8728 	DATA 	Keypress: a
+101.8843 	EXP 	polygon: autoDraw = False
+101.8843 	EXP 	stim: autoDraw = False
+101.8843 	EXP 	mask: autoDraw = False
+101.8843 	EXP 	stim: image = 'imgs/1_stim.png'
+101.8843 	EXP 	polygon: autoDraw = True
+102.5012 	EXP 	polygon: autoDraw = False
+102.6680 	EXP 	stim: autoDraw = True
+102.7014 	EXP 	stim: autoDraw = False
+102.7514 	EXP 	mask: autoDraw = True
+102.7847 	EXP 	mask: autoDraw = False
+103.6244 	EXP 	New trial (rep=40, index=0): None
+103.6409 	DATA 	Keypress: a
+103.6518 	EXP 	polygon: autoDraw = False
+103.6518 	EXP 	stim: autoDraw = False
+103.6518 	EXP 	mask: autoDraw = False
+103.6518 	EXP 	stim: image = 'imgs/3_stim.png'
+103.6518 	EXP 	polygon: autoDraw = True
+104.6356 	EXP 	polygon: autoDraw = False
+104.9691 	EXP 	stim: autoDraw = True
+105.0023 	EXP 	stim: autoDraw = False
+105.0857 	EXP 	mask: autoDraw = True
+105.1191 	EXP 	mask: autoDraw = False
+105.3254 	EXP 	New trial (rep=41, index=0): None
+105.3418 	DATA 	Keypress: d
+105.3525 	EXP 	polygon: autoDraw = False
+105.3525 	EXP 	stim: autoDraw = False
+105.3525 	EXP 	mask: autoDraw = False
+105.3525 	EXP 	stim: image = 'imgs/3_stim.png'
+105.3525 	EXP 	polygon: autoDraw = True
+106.3196 	EXP 	polygon: autoDraw = False
+106.3696 	EXP 	stim: autoDraw = True
+106.4029 	EXP 	stim: autoDraw = False
+106.4530 	EXP 	mask: autoDraw = True
+106.4863 	EXP 	mask: autoDraw = False
+107.7934 	EXP 	New trial (rep=42, index=0): None
+107.8098 	DATA 	Keypress: q
+107.8202 	EXP 	polygon: autoDraw = False
+107.8202 	EXP 	stim: autoDraw = False
+107.8202 	EXP 	mask: autoDraw = False
+107.8202 	EXP 	stim: image = 'imgs/1_stim.png'
+107.8202 	EXP 	polygon: autoDraw = True
+108.4038 	EXP 	polygon: autoDraw = False
+108.8373 	EXP 	stim: autoDraw = True
+108.8707 	EXP 	stim: autoDraw = False
+108.8874 	EXP 	mask: autoDraw = True
+108.9207 	EXP 	mask: autoDraw = False
+109.5276 	EXP 	New trial (rep=43, index=0): None
+109.5432 	DATA 	Keypress: a
+109.5543 	EXP 	polygon: autoDraw = False
+109.5543 	EXP 	stim: autoDraw = False
+109.5543 	EXP 	mask: autoDraw = False
+109.5543 	EXP 	stim: image = 'imgs/2_stim.png'
+109.5543 	EXP 	polygon: autoDraw = True
+110.4046 	EXP 	polygon: autoDraw = False
+110.4046 	EXP 	stim: autoDraw = True
+110.4381 	EXP 	stim: autoDraw = False
+110.5047 	EXP 	mask: autoDraw = True
+110.5381 	EXP 	mask: autoDraw = False
+111.4620 	EXP 	New trial (rep=44, index=0): None
+111.4785 	DATA 	Keypress: a
+111.4885 	EXP 	polygon: autoDraw = False
+111.4885 	EXP 	stim: autoDraw = False
+111.4885 	EXP 	mask: autoDraw = False
+111.4885 	EXP 	stim: image = 'imgs/4_stim.png'
+111.4885 	EXP 	polygon: autoDraw = True
+112.1220 	EXP 	polygon: autoDraw = False
+112.5556 	EXP 	stim: autoDraw = True
+112.5889 	EXP 	stim: autoDraw = False
+112.6723 	EXP 	mask: autoDraw = True
+112.7056 	EXP 	mask: autoDraw = False
+112.9930 	DATA 	Keypress: e
+113.0120 	EXP 	New trial (rep=45, index=0): None
+113.0391 	EXP 	polygon: autoDraw = False
+113.0391 	EXP 	stim: autoDraw = False
+113.0391 	EXP 	mask: autoDraw = False
+113.0391 	EXP 	stim: image = 'imgs/2_stim.png'
+113.0391 	EXP 	polygon: autoDraw = True
+113.9395 	EXP 	polygon: autoDraw = False
+114.4064 	EXP 	stim: autoDraw = True
+114.4397 	EXP 	stim: autoDraw = False
+114.4397 	EXP 	mask: autoDraw = True
+114.4731 	EXP 	mask: autoDraw = False
+115.4467 	EXP 	New trial (rep=46, index=0): None
+115.4631 	DATA 	Keypress: q
+115.4735 	EXP 	polygon: autoDraw = False
+115.4735 	EXP 	stim: autoDraw = False
+115.4735 	EXP 	mask: autoDraw = False
+115.4735 	EXP 	stim: image = 'imgs/1_stim.png'
+115.4735 	EXP 	polygon: autoDraw = True
+116.0904 	EXP 	polygon: autoDraw = False
+116.3905 	EXP 	stim: autoDraw = True
+116.4239 	EXP 	stim: autoDraw = False
+116.5073 	EXP 	mask: autoDraw = True
+116.5407 	EXP 	mask: autoDraw = False
+116.9309 	EXP 	New trial (rep=47, index=0): None
+116.9474 	DATA 	Keypress: a
+116.9575 	EXP 	polygon: autoDraw = False
+116.9575 	EXP 	stim: autoDraw = False
+116.9575 	EXP 	mask: autoDraw = False
+116.9575 	EXP 	stim: image = 'imgs/3_stim.png'
+116.9575 	EXP 	polygon: autoDraw = True
+117.7913 	EXP 	polygon: autoDraw = False
+117.9412 	EXP 	stim: autoDraw = True
+117.9746 	EXP 	stim: autoDraw = False
+118.0579 	EXP 	mask: autoDraw = True
+118.0913 	EXP 	mask: autoDraw = False
+118.3806 	EXP 	New trial (rep=48, index=0): None
+118.3970 	DATA 	Keypress: d
+118.4081 	EXP 	polygon: autoDraw = False
+118.4081 	EXP 	stim: autoDraw = False
+118.4081 	EXP 	mask: autoDraw = False
+118.4081 	EXP 	stim: image = 'imgs/4_stim.png'
+118.4081 	EXP 	polygon: autoDraw = True
+119.1084 	EXP 	polygon: autoDraw = False
+119.1250 	EXP 	stim: autoDraw = True
+119.1584 	EXP 	stim: autoDraw = False
+119.1918 	EXP 	mask: autoDraw = True
+119.2251 	EXP 	mask: autoDraw = False
+120.3316 	EXP 	New trial (rep=49, index=0): None
+120.3480 	DATA 	Keypress: a
+120.3590 	EXP 	polygon: autoDraw = False
+120.3590 	EXP 	stim: autoDraw = False
+120.3590 	EXP 	mask: autoDraw = False
+120.3590 	EXP 	stim: image = 'imgs/3_stim.png'
+120.3590 	EXP 	polygon: autoDraw = True
+121.0092 	EXP 	polygon: autoDraw = False
+121.0259 	EXP 	stim: autoDraw = True
+121.0592 	EXP 	stim: autoDraw = False
+121.1092 	EXP 	mask: autoDraw = True
+121.1426 	EXP 	mask: autoDraw = False
+122.1157 	EXP 	New trial (rep=50, index=0): None
+122.1324 	DATA 	Keypress: q
+122.1430 	EXP 	polygon: autoDraw = False
+122.1430 	EXP 	stim: autoDraw = False
+122.1430 	EXP 	mask: autoDraw = False
+122.1430 	EXP 	stim: image = 'imgs/4_stim.png'
+122.1430 	EXP 	polygon: autoDraw = True
+123.1435 	EXP 	polygon: autoDraw = False
+123.3935 	EXP 	stim: autoDraw = True
+123.4269 	EXP 	stim: autoDraw = False
+123.4269 	EXP 	mask: autoDraw = True
+123.4603 	EXP 	mask: autoDraw = False
+125.1486 	DATA 	Keypress: q
+125.1669 	EXP 	New trial (rep=51, index=0): None
+125.1943 	EXP 	polygon: autoDraw = False
+125.1943 	EXP 	stim: autoDraw = False
+125.1943 	EXP 	mask: autoDraw = False
+125.1943 	EXP 	stim: image = 'imgs/4_stim.png'
+125.1943 	EXP 	polygon: autoDraw = True
+126.0280 	EXP 	polygon: autoDraw = False
+126.1948 	EXP 	stim: autoDraw = True
+126.2281 	EXP 	stim: autoDraw = False
+126.2781 	EXP 	mask: autoDraw = True
+126.3115 	EXP 	mask: autoDraw = False
+127.6350 	EXP 	New trial (rep=52, index=0): None
+127.6512 	DATA 	Keypress: e
+127.6621 	EXP 	polygon: autoDraw = False
+127.6621 	EXP 	stim: autoDraw = False
+127.6621 	EXP 	mask: autoDraw = False
+127.6621 	EXP 	stim: image = 'imgs/3_stim.png'
+127.6621 	EXP 	polygon: autoDraw = True
+128.4457 	EXP 	polygon: autoDraw = False
+128.8959 	EXP 	stim: autoDraw = True
+128.9292 	EXP 	stim: autoDraw = False
+128.9459 	EXP 	mask: autoDraw = True
+128.9793 	EXP 	mask: autoDraw = False
+130.6358 	EXP 	New trial (rep=53, index=0): None
+130.6512 	DATA 	Keypress: q
+130.6633 	EXP 	polygon: autoDraw = False
+130.6633 	EXP 	stim: autoDraw = False
+130.6633 	EXP 	mask: autoDraw = False
+130.6633 	EXP 	stim: image = 'imgs/1_stim.png'
+130.6633 	EXP 	polygon: autoDraw = True
+131.5971 	EXP 	stim: autoDraw = True
+131.6137 	EXP 	polygon: autoDraw = False
+131.6304 	EXP 	stim: autoDraw = False
+131.6805 	EXP 	mask: autoDraw = True
+131.7138 	EXP 	mask: autoDraw = False
+132.2700 	EXP 	New trial (rep=54, index=0): None
+132.2864 	DATA 	Keypress: a
+132.2974 	EXP 	polygon: autoDraw = False
+132.2974 	EXP 	stim: autoDraw = False
+132.2974 	EXP 	mask: autoDraw = False
+132.2974 	EXP 	stim: image = 'imgs/2_stim.png'
+132.2974 	EXP 	polygon: autoDraw = True
+133.2812 	EXP 	polygon: autoDraw = False
+133.4312 	EXP 	stim: autoDraw = True
+133.4646 	EXP 	stim: autoDraw = False
+133.4980 	EXP 	mask: autoDraw = True
+133.5313 	EXP 	mask: autoDraw = False
+134.2544 	EXP 	New trial (rep=55, index=0): None
+134.2718 	DATA 	Keypress: q
+134.2816 	EXP 	polygon: autoDraw = False
+134.2816 	EXP 	stim: autoDraw = False
+134.2816 	EXP 	mask: autoDraw = False
+134.2816 	EXP 	stim: image = 'imgs/2_stim.png'
+134.2816 	EXP 	polygon: autoDraw = True
+134.8985 	EXP 	polygon: autoDraw = False
+135.3154 	EXP 	stim: autoDraw = True
+135.3487 	EXP 	stim: autoDraw = False
+135.4488 	EXP 	mask: autoDraw = True
+135.4821 	EXP 	mask: autoDraw = False
+135.8552 	EXP 	New trial (rep=56, index=0): None
+135.8726 	DATA 	Keypress: q
+135.8822 	EXP 	polygon: autoDraw = False
+135.8822 	EXP 	stim: autoDraw = False
+135.8822 	EXP 	mask: autoDraw = False
+135.8822 	EXP 	stim: image = 'imgs/3_stim.png'
+135.8822 	EXP 	polygon: autoDraw = True
+136.5325 	EXP 	polygon: autoDraw = False
+136.7994 	EXP 	stim: autoDraw = True
+136.8327 	EXP 	stim: autoDraw = False
+136.8327 	EXP 	mask: autoDraw = True
+136.8660 	EXP 	mask: autoDraw = False
+137.7560 	EXP 	New trial (rep=57, index=0): None
+137.7715 	DATA 	Keypress: d
+137.7831 	EXP 	polygon: autoDraw = False
+137.7831 	EXP 	stim: autoDraw = False
+137.7831 	EXP 	mask: autoDraw = False
+137.7831 	EXP 	stim: image = 'imgs/1_stim.png'
+137.7831 	EXP 	polygon: autoDraw = True
+138.7502 	EXP 	polygon: autoDraw = False
+138.7502 	EXP 	stim: autoDraw = True
+138.7835 	EXP 	stim: autoDraw = False
+138.8502 	EXP 	mask: autoDraw = True
+138.8836 	EXP 	mask: autoDraw = False
+139.3405 	EXP 	New trial (rep=58, index=0): None
+139.3570 	DATA 	Keypress: a
+139.3671 	EXP 	polygon: autoDraw = False
+139.3671 	EXP 	stim: autoDraw = False
+139.3671 	EXP 	mask: autoDraw = False
+139.3671 	EXP 	stim: image = 'imgs/3_stim.png'
+139.3671 	EXP 	polygon: autoDraw = True
+140.1508 	EXP 	polygon: autoDraw = False
+140.3008 	EXP 	stim: autoDraw = True
+140.3341 	EXP 	stim: autoDraw = False
+140.4176 	EXP 	mask: autoDraw = True
+140.4509 	EXP 	mask: autoDraw = False
+141.2401 	EXP 	New trial (rep=59, index=0): None
+141.2567 	DATA 	Keypress: a
+141.2679 	EXP 	polygon: autoDraw = False
+141.2679 	EXP 	stim: autoDraw = False
+141.2679 	EXP 	mask: autoDraw = False
+141.2679 	EXP 	stim: image = 'imgs/2_stim.png'
+141.2679 	EXP 	polygon: autoDraw = True
+142.2016 	EXP 	polygon: autoDraw = False
+142.6685 	EXP 	stim: autoDraw = True
+142.7019 	EXP 	stim: autoDraw = False
+142.7852 	EXP 	mask: autoDraw = True
+142.8186 	EXP 	mask: autoDraw = False
+143.0919 	EXP 	New trial (rep=60, index=0): None
+143.1083 	DATA 	Keypress: q
+143.1187 	EXP 	polygon: autoDraw = False
+143.1187 	EXP 	stim: autoDraw = False
+143.1187 	EXP 	mask: autoDraw = False
+143.1187 	EXP 	stim: image = 'imgs/3_stim.png'
+143.1187 	EXP 	polygon: autoDraw = True
+143.7356 	EXP 	polygon: autoDraw = False
+143.9023 	EXP 	stim: autoDraw = True
+143.9357 	EXP 	stim: autoDraw = False
+144.0357 	EXP 	mask: autoDraw = True
+144.0691 	EXP 	mask: autoDraw = False
+144.3918 	EXP 	New trial (rep=61, index=0): None
+144.4083 	DATA 	Keypress: d
+144.4192 	EXP 	polygon: autoDraw = False
+144.4192 	EXP 	stim: autoDraw = False
+144.4192 	EXP 	mask: autoDraw = False
+144.4192 	EXP 	stim: image = 'imgs/3_stim.png'
+144.4192 	EXP 	polygon: autoDraw = True
+145.0362 	EXP 	polygon: autoDraw = False
+145.1529 	EXP 	stim: autoDraw = True
+145.1863 	EXP 	stim: autoDraw = False
+145.2196 	EXP 	mask: autoDraw = True
+145.2530 	EXP 	mask: autoDraw = False
+146.2070 	DATA 	Keypress: q
+146.2262 	EXP 	New trial (rep=62, index=0): None
+146.2534 	EXP 	polygon: autoDraw = False
+146.2534 	EXP 	stim: autoDraw = False
+146.2534 	EXP 	mask: autoDraw = False
+146.2534 	EXP 	stim: image = 'imgs/2_stim.png'
+146.2534 	EXP 	polygon: autoDraw = True
+146.9704 	EXP 	polygon: autoDraw = False
+147.2705 	EXP 	stim: autoDraw = True
+147.3038 	EXP 	stim: autoDraw = False
+147.3372 	EXP 	mask: autoDraw = True
+147.3705 	EXP 	mask: autoDraw = False
+147.8770 	EXP 	New trial (rep=63, index=0): None
+147.8934 	DATA 	Keypress: q
+147.9041 	EXP 	polygon: autoDraw = False
+147.9041 	EXP 	stim: autoDraw = False
+147.9041 	EXP 	mask: autoDraw = False
+147.9041 	EXP 	stim: image = 'imgs/3_stim.png'
+147.9041 	EXP 	polygon: autoDraw = True
+148.7378 	EXP 	polygon: autoDraw = False
+148.9378 	EXP 	stim: autoDraw = True
+148.9712 	EXP 	stim: autoDraw = False
+149.0546 	EXP 	mask: autoDraw = True
+149.0880 	EXP 	mask: autoDraw = False
+149.7281 	EXP 	New trial (rep=64, index=0): None
+149.7445 	DATA 	Keypress: d
+149.7549 	EXP 	polygon: autoDraw = False
+149.7549 	EXP 	stim: autoDraw = False
+149.7549 	EXP 	mask: autoDraw = False
+149.7549 	EXP 	stim: image = 'imgs/2_stim.png'
+149.7549 	EXP 	polygon: autoDraw = True
+150.5218 	EXP 	polygon: autoDraw = False
+150.6386 	EXP 	stim: autoDraw = True
+150.6719 	EXP 	stim: autoDraw = False
+150.6886 	EXP 	mask: autoDraw = True
+150.7220 	EXP 	mask: autoDraw = False
+151.7953 	EXP 	New trial (rep=65, index=0): None
+151.8126 	DATA 	Keypress: e
+151.8225 	EXP 	polygon: autoDraw = False
+151.8225 	EXP 	stim: autoDraw = False
+151.8225 	EXP 	mask: autoDraw = False
+151.8225 	EXP 	stim: image = 'imgs/3_stim.png'
+151.8225 	EXP 	polygon: autoDraw = True
+152.6241 	EXP 	polygon: autoDraw = False
+153.0730 	EXP 	stim: autoDraw = True
+153.1063 	EXP 	stim: autoDraw = False
+153.1730 	EXP 	mask: autoDraw = True
+153.2064 	EXP 	mask: autoDraw = False
+153.6108 	DATA 	Keypress: d
+153.6291 	EXP 	New trial (rep=66, index=0): None
+153.6565 	EXP 	polygon: autoDraw = False
+153.6565 	EXP 	stim: autoDraw = False
+153.6565 	EXP 	mask: autoDraw = False
+153.6565 	EXP 	stim: image = 'imgs/4_stim.png'
+153.6565 	EXP 	polygon: autoDraw = True
+154.2735 	EXP 	stim: autoDraw = True
+154.2902 	EXP 	polygon: autoDraw = False
+154.3068 	EXP 	stim: autoDraw = False
+154.4069 	EXP 	mask: autoDraw = True
+154.4402 	EXP 	mask: autoDraw = False
+155.2279 	DATA 	Keypress: e
+155.2470 	EXP 	New trial (rep=67, index=0): None
+155.2739 	EXP 	polygon: autoDraw = False
+155.2739 	EXP 	stim: autoDraw = False
+155.2739 	EXP 	mask: autoDraw = False
+155.2739 	EXP 	stim: image = 'imgs/3_stim.png'
+155.2739 	EXP 	polygon: autoDraw = True
+156.1910 	EXP 	polygon: autoDraw = False
+156.1910 	EXP 	stim: autoDraw = True
+156.2243 	EXP 	stim: autoDraw = False
+156.2576 	EXP 	mask: autoDraw = True
+156.2910 	EXP 	mask: autoDraw = False
+156.9619 	DATA 	Keypress: a
+156.9813 	EXP 	New trial (rep=68, index=0): None
+157.0080 	EXP 	polygon: autoDraw = False
+157.0080 	EXP 	stim: autoDraw = False
+157.0080 	EXP 	mask: autoDraw = False
+157.0080 	EXP 	stim: image = 'imgs/2_stim.png'
+157.0080 	EXP 	polygon: autoDraw = True
+157.8417 	EXP 	polygon: autoDraw = False
+158.1919 	EXP 	stim: autoDraw = True
+158.2252 	EXP 	stim: autoDraw = False
+158.2752 	EXP 	mask: autoDraw = True
+158.3085 	EXP 	mask: autoDraw = False
+158.5962 	DATA 	Keypress: q
+158.6153 	EXP 	New trial (rep=69, index=0): None
+158.6420 	EXP 	polygon: autoDraw = False
+158.6420 	EXP 	stim: autoDraw = False
+158.6420 	EXP 	mask: autoDraw = False
+158.6420 	EXP 	stim: image = 'imgs/1_stim.png'
+158.6420 	EXP 	polygon: autoDraw = True
+159.3923 	EXP 	polygon: autoDraw = False
+159.7258 	EXP 	stim: autoDraw = True
+159.7592 	EXP 	stim: autoDraw = False
+159.8093 	EXP 	mask: autoDraw = True
+159.8425 	EXP 	mask: autoDraw = False
+160.5821 	EXP 	New trial (rep=70, index=0): None
+160.5985 	DATA 	Keypress: q
+160.6096 	EXP 	polygon: autoDraw = False
+160.6096 	EXP 	stim: autoDraw = False
+160.6096 	EXP 	mask: autoDraw = False
+160.6096 	EXP 	stim: image = 'imgs/4_stim.png'
+160.6096 	EXP 	polygon: autoDraw = True
+161.4099 	EXP 	polygon: autoDraw = False
+161.6099 	EXP 	stim: autoDraw = True
+161.6433 	EXP 	stim: autoDraw = False
+161.7267 	EXP 	mask: autoDraw = True
+161.7600 	EXP 	mask: autoDraw = False
+161.9830 	EXP 	New trial (rep=71, index=0): None
+161.9994 	DATA 	Keypress: e
+162.0101 	EXP 	polygon: autoDraw = False
+162.0101 	EXP 	stim: autoDraw = False
+162.0101 	EXP 	mask: autoDraw = False
+162.0101 	EXP 	stim: image = 'imgs/4_stim.png'
+162.0101 	EXP 	polygon: autoDraw = True
+162.7605 	EXP 	polygon: autoDraw = False
+162.9939 	EXP 	stim: autoDraw = True
+163.0272 	EXP 	stim: autoDraw = False
+163.0606 	EXP 	mask: autoDraw = True
+163.0939 	EXP 	mask: autoDraw = False
+164.0487 	DATA 	Keypress: q
+164.0670 	EXP 	New trial (rep=72, index=0): None
+164.0943 	EXP 	polygon: autoDraw = False
+164.0943 	EXP 	stim: autoDraw = False
+164.0943 	EXP 	mask: autoDraw = False
+164.0943 	EXP 	stim: image = 'imgs/4_stim.png'
+164.0943 	EXP 	polygon: autoDraw = True
+164.7113 	EXP 	polygon: autoDraw = False
+165.1281 	EXP 	stim: autoDraw = True
+165.1615 	EXP 	stim: autoDraw = False
+165.2282 	EXP 	mask: autoDraw = True
+165.2615 	EXP 	mask: autoDraw = False
+165.7845 	EXP 	New trial (rep=73, index=0): None
+165.8001 	DATA 	Keypress: e
+165.8119 	EXP 	polygon: autoDraw = False
+165.8119 	EXP 	stim: autoDraw = False
+165.8119 	EXP 	mask: autoDraw = False
+165.8119 	EXP 	stim: image = 'imgs/4_stim.png'
+165.8119 	EXP 	polygon: autoDraw = True
+166.3620 	EXP 	polygon: autoDraw = False
+166.3787 	EXP 	stim: autoDraw = True
+166.4120 	EXP 	stim: autoDraw = False
+166.4454 	EXP 	mask: autoDraw = True
+166.4787 	EXP 	mask: autoDraw = False
+168.0356 	EXP 	New trial (rep=74, index=0): None
+168.0522 	DATA 	Keypress: e
+168.0627 	EXP 	polygon: autoDraw = False
+168.0627 	EXP 	stim: autoDraw = False
+168.0627 	EXP 	mask: autoDraw = False
+168.0627 	EXP 	stim: image = 'imgs/4_stim.png'
+168.0627 	EXP 	polygon: autoDraw = True
+168.9631 	EXP 	polygon: autoDraw = False
+169.0799 	EXP 	stim: autoDraw = True
+169.1132 	EXP 	stim: autoDraw = False
+169.1799 	EXP 	mask: autoDraw = True
+169.2132 	EXP 	mask: autoDraw = False
+169.7194 	EXP 	New trial (rep=75, index=0): None
+169.7348 	DATA 	Keypress: e
+169.7468 	EXP 	polygon: autoDraw = False
+169.7468 	EXP 	stim: autoDraw = False
+169.7468 	EXP 	mask: autoDraw = False
+169.7468 	EXP 	stim: image = 'imgs/4_stim.png'
+169.7468 	EXP 	polygon: autoDraw = True
+170.4471 	EXP 	polygon: autoDraw = False
+170.6805 	EXP 	stim: autoDraw = True
+170.7139 	EXP 	stim: autoDraw = False
+170.7473 	EXP 	mask: autoDraw = True
+170.7806 	EXP 	mask: autoDraw = False
+171.5037 	EXP 	New trial (rep=76, index=0): None
+171.5202 	DATA 	Keypress: q
+171.5309 	EXP 	polygon: autoDraw = False
+171.5309 	EXP 	stim: autoDraw = False
+171.5309 	EXP 	mask: autoDraw = False
+171.5309 	EXP 	stim: image = 'imgs/1_stim.png'
+171.5309 	EXP 	polygon: autoDraw = True
+172.3312 	EXP 	polygon: autoDraw = False
+172.5313 	EXP 	stim: autoDraw = True
+172.5647 	EXP 	stim: autoDraw = False
+172.5980 	EXP 	mask: autoDraw = True
+172.6314 	EXP 	mask: autoDraw = False
+173.4045 	EXP 	New trial (rep=77, index=0): None
+173.4208 	DATA 	Keypress: q
+173.4317 	EXP 	polygon: autoDraw = False
+173.4317 	EXP 	stim: autoDraw = False
+173.4317 	EXP 	mask: autoDraw = False
+173.4317 	EXP 	stim: image = 'imgs/4_stim.png'
+173.4317 	EXP 	polygon: autoDraw = True
+173.9653 	EXP 	polygon: autoDraw = False
+174.1987 	EXP 	stim: autoDraw = True
+174.2321 	EXP 	stim: autoDraw = False
+174.2321 	EXP 	mask: autoDraw = True
+174.2654 	EXP 	mask: autoDraw = False
+176.5559 	EXP 	New trial (rep=78, index=0): None
+176.5723 	DATA 	Keypress: d
+176.5831 	EXP 	polygon: autoDraw = False
+176.5831 	EXP 	stim: autoDraw = False
+176.5831 	EXP 	mask: autoDraw = False
+176.5831 	EXP 	stim: image = 'imgs/2_stim.png'
+176.5831 	EXP 	polygon: autoDraw = True
+177.1000 	EXP 	polygon: autoDraw = False
+177.5501 	EXP 	stim: autoDraw = True
+177.5835 	EXP 	stim: autoDraw = False
+177.6335 	EXP 	mask: autoDraw = True
+177.6669 	EXP 	mask: autoDraw = False
+178.0568 	EXP 	New trial (rep=79, index=0): None
+178.0733 	DATA 	Keypress: q
+178.0837 	EXP 	polygon: autoDraw = False
+178.0837 	EXP 	stim: autoDraw = False
+178.0837 	EXP 	mask: autoDraw = False
+178.0837 	EXP 	stim: image = 'imgs/4_stim.png'
+178.0837 	EXP 	polygon: autoDraw = True
+179.0341 	EXP 	polygon: autoDraw = False
+179.4509 	EXP 	stim: autoDraw = True
+179.4843 	EXP 	stim: autoDraw = False
+179.5510 	EXP 	mask: autoDraw = True
+179.5844 	EXP 	mask: autoDraw = False
+180.6247 	EXP 	New trial (rep=80, index=0): None
+180.6413 	DATA 	Keypress: e
+180.6515 	EXP 	polygon: autoDraw = False
+180.6515 	EXP 	stim: autoDraw = False
+180.6515 	EXP 	mask: autoDraw = False
+180.6515 	EXP 	stim: image = 'imgs/1_stim.png'
+180.6515 	EXP 	polygon: autoDraw = True
+181.2017 	EXP 	polygon: autoDraw = False
+181.5018 	EXP 	stim: autoDraw = True
+181.5352 	EXP 	stim: autoDraw = False
+181.6352 	EXP 	mask: autoDraw = True
+181.6686 	EXP 	mask: autoDraw = False
+182.3586 	EXP 	New trial (rep=81, index=0): None
+182.3741 	DATA 	Keypress: a
+182.3855 	EXP 	polygon: autoDraw = False
+182.3855 	EXP 	stim: autoDraw = False
+182.3855 	EXP 	mask: autoDraw = False
+182.3855 	EXP 	stim: image = 'imgs/4_stim.png'
+182.3855 	EXP 	polygon: autoDraw = True
+183.0358 	EXP 	polygon: autoDraw = False
+183.2859 	EXP 	stim: autoDraw = True
+183.3193 	EXP 	stim: autoDraw = False
+183.3860 	EXP 	mask: autoDraw = True
+183.4193 	EXP 	mask: autoDraw = False
+185.0427 	EXP 	New trial (rep=82, index=0): None
+185.0591 	DATA 	Keypress: e
+185.0700 	EXP 	polygon: autoDraw = False
+185.0700 	EXP 	stim: autoDraw = False
+185.0700 	EXP 	mask: autoDraw = False
+185.0700 	EXP 	stim: image = 'imgs/3_stim.png'
+185.0700 	EXP 	polygon: autoDraw = True
+185.9871 	EXP 	polygon: autoDraw = False
+186.4039 	EXP 	stim: autoDraw = True
+186.4373 	EXP 	stim: autoDraw = False
+186.5540 	EXP 	mask: autoDraw = True
+186.5873 	EXP 	mask: autoDraw = False
+187.0748 	DATA 	Keypress: d
+187.0935 	EXP 	New trial (rep=83, index=0): None
+187.1209 	EXP 	polygon: autoDraw = False
+187.1209 	EXP 	stim: autoDraw = False
+187.1209 	EXP 	mask: autoDraw = False
+187.1209 	EXP 	stim: image = 'imgs/2_stim.png'
+187.1209 	EXP 	polygon: autoDraw = True
+187.9546 	EXP 	polygon: autoDraw = False
+188.2547 	EXP 	stim: autoDraw = True
+188.2881 	EXP 	stim: autoDraw = False
+188.3548 	EXP 	mask: autoDraw = True
+188.3882 	EXP 	mask: autoDraw = False
+188.7614 	EXP 	New trial (rep=84, index=0): None
+188.7777 	DATA 	Keypress: q
+188.7883 	EXP 	polygon: autoDraw = False
+188.7883 	EXP 	stim: autoDraw = False
+188.7883 	EXP 	mask: autoDraw = False
+188.7883 	EXP 	stim: image = 'imgs/1_stim.png'
+188.7883 	EXP 	polygon: autoDraw = True
+189.5052 	EXP 	polygon: autoDraw = False
+189.9221 	EXP 	stim: autoDraw = True
+189.9555 	EXP 	stim: autoDraw = False
+189.9555 	EXP 	mask: autoDraw = True
+189.9888 	EXP 	mask: autoDraw = False
+191.2954 	EXP 	New trial (rep=85, index=0): None
+191.3117 	DATA 	Keypress: q
+191.3227 	EXP 	polygon: autoDraw = False
+191.3227 	EXP 	stim: autoDraw = False
+191.3227 	EXP 	mask: autoDraw = False
+191.3227 	EXP 	stim: image = 'imgs/2_stim.png'
+191.3227 	EXP 	polygon: autoDraw = True
+191.8730 	EXP 	polygon: autoDraw = False
+191.9563 	EXP 	stim: autoDraw = True
+191.9898 	EXP 	stim: autoDraw = False
+192.0897 	EXP 	mask: autoDraw = True
+192.1231 	EXP 	mask: autoDraw = False
+192.6794 	EXP 	New trial (rep=86, index=0): None
+192.6959 	DATA 	Keypress: q
+192.7067 	EXP 	polygon: autoDraw = False
+192.7067 	EXP 	stim: autoDraw = False
+192.7067 	EXP 	mask: autoDraw = False
+192.7067 	EXP 	stim: image = 'imgs/1_stim.png'
+192.7067 	EXP 	polygon: autoDraw = True
+193.4736 	EXP 	polygon: autoDraw = False
+193.6904 	EXP 	stim: autoDraw = True
+193.7237 	EXP 	stim: autoDraw = False
+193.8071 	EXP 	mask: autoDraw = True
+193.8406 	EXP 	mask: autoDraw = False
+195.1977 	EXP 	New trial (rep=87, index=0): None
+195.2160 	DATA 	Keypress: q
+195.2244 	EXP 	polygon: autoDraw = False
+195.2244 	EXP 	stim: autoDraw = False
+195.2244 	EXP 	mask: autoDraw = False
+195.2244 	EXP 	stim: image = 'imgs/4_stim.png'
+195.2244 	EXP 	polygon: autoDraw = True
+195.9414 	EXP 	polygon: autoDraw = False
+196.2915 	EXP 	stim: autoDraw = True
+196.3249 	EXP 	stim: autoDraw = False
+196.4082 	EXP 	mask: autoDraw = True
+196.4416 	EXP 	mask: autoDraw = False
+197.1313 	EXP 	New trial (rep=88, index=0): None
+197.1477 	DATA 	Keypress: e
+197.1585 	EXP 	polygon: autoDraw = False
+197.1585 	EXP 	stim: autoDraw = False
+197.1585 	EXP 	mask: autoDraw = False
+197.1585 	EXP 	stim: image = 'imgs/2_stim.png'
+197.1585 	EXP 	polygon: autoDraw = True
+197.8089 	EXP 	polygon: autoDraw = False
+198.0756 	EXP 	stim: autoDraw = True
+198.1089 	EXP 	stim: autoDraw = False
+198.1089 	EXP 	mask: autoDraw = True
+198.1423 	EXP 	mask: autoDraw = False
+199.1323 	EXP 	New trial (rep=89, index=0): None
+199.1477 	DATA 	Keypress: q
+199.1594 	EXP 	polygon: autoDraw = False
+199.1594 	EXP 	stim: autoDraw = False
+199.1594 	EXP 	mask: autoDraw = False
+199.1594 	EXP 	stim: image = 'imgs/1_stim.png'
+199.1594 	EXP 	polygon: autoDraw = True
+200.0931 	EXP 	polygon: autoDraw = False
+200.1765 	EXP 	stim: autoDraw = True
+200.2099 	EXP 	stim: autoDraw = False
+200.2099 	EXP 	mask: autoDraw = True
+200.2432 	EXP 	mask: autoDraw = False
+201.1163 	EXP 	New trial (rep=90, index=0): None
+201.1329 	DATA 	Keypress: d
+201.1436 	EXP 	polygon: autoDraw = False
+201.1436 	EXP 	stim: autoDraw = False
+201.1436 	EXP 	mask: autoDraw = False
+201.1436 	EXP 	stim: image = 'imgs/4_stim.png'
+201.1436 	EXP 	polygon: autoDraw = True
+201.8273 	EXP 	stim: autoDraw = True
+201.8440 	EXP 	polygon: autoDraw = False
+201.8605 	EXP 	stim: autoDraw = False
+201.9606 	EXP 	mask: autoDraw = True
+201.9940 	EXP 	mask: autoDraw = False
+204.3675 	EXP 	New trial (rep=91, index=0): None
+204.3840 	DATA 	Keypress: a
+204.3950 	EXP 	polygon: autoDraw = False
+204.3950 	EXP 	stim: autoDraw = False
+204.3950 	EXP 	mask: autoDraw = False
+204.3950 	EXP 	stim: image = 'imgs/1_stim.png'
+204.3950 	EXP 	polygon: autoDraw = True
+205.0286 	EXP 	polygon: autoDraw = False
+205.1119 	EXP 	stim: autoDraw = True
+205.1453 	EXP 	stim: autoDraw = False
+205.2120 	EXP 	mask: autoDraw = True
+205.2454 	EXP 	mask: autoDraw = False
+205.9668 	DATA 	Keypress: a
+205.9850 	EXP 	New trial (rep=92, index=0): None
+206.0123 	EXP 	polygon: autoDraw = False
+206.0123 	EXP 	stim: autoDraw = False
+206.0123 	EXP 	mask: autoDraw = False
+206.0123 	EXP 	stim: image = 'imgs/1_stim.png'
+206.0123 	EXP 	polygon: autoDraw = True
+206.8794 	EXP 	polygon: autoDraw = False
+207.2629 	EXP 	stim: autoDraw = True
+207.2962 	EXP 	stim: autoDraw = False
+207.3629 	EXP 	mask: autoDraw = True
+207.3962 	EXP 	mask: autoDraw = False
+207.9857 	EXP 	New trial (rep=93, index=0): None
+208.0020 	DATA 	Keypress: a
+208.0132 	EXP 	polygon: autoDraw = False
+208.0132 	EXP 	stim: autoDraw = False
+208.0132 	EXP 	mask: autoDraw = False
+208.0132 	EXP 	stim: image = 'imgs/4_stim.png'
+208.0132 	EXP 	polygon: autoDraw = True
+208.7636 	EXP 	polygon: autoDraw = False
+209.1137 	EXP 	stim: autoDraw = True
+209.1470 	EXP 	stim: autoDraw = False
+209.2471 	EXP 	mask: autoDraw = True
+209.2805 	EXP 	mask: autoDraw = False
+210.3370 	EXP 	New trial (rep=94, index=0): None
+210.3534 	DATA 	Keypress: q
+210.3642 	EXP 	polygon: autoDraw = False
+210.3642 	EXP 	stim: autoDraw = False
+210.3642 	EXP 	mask: autoDraw = False
+210.3642 	EXP 	stim: image = 'imgs/3_stim.png'
+210.3642 	EXP 	polygon: autoDraw = True
+211.0979 	EXP 	polygon: autoDraw = False
+211.4480 	EXP 	stim: autoDraw = True
+211.4814 	EXP 	stim: autoDraw = False
+211.5814 	EXP 	mask: autoDraw = True
+211.6148 	EXP 	mask: autoDraw = False
+212.1210 	EXP 	New trial (rep=95, index=0): None
+212.1374 	DATA 	Keypress: d
+212.1483 	EXP 	polygon: autoDraw = False
+212.1483 	EXP 	stim: autoDraw = False
+212.1483 	EXP 	mask: autoDraw = False
+212.1483 	EXP 	stim: image = 'imgs/4_stim.png'
+212.1483 	EXP 	polygon: autoDraw = True
+212.8486 	EXP 	polygon: autoDraw = False
+213.1321 	EXP 	stim: autoDraw = True
+213.1654 	EXP 	stim: autoDraw = False
+213.1988 	EXP 	mask: autoDraw = True
+213.2321 	EXP 	mask: autoDraw = False
+215.1230 	EXP 	New trial (rep=96, index=0): None
+215.1394 	DATA 	Keypress: q
+215.1496 	EXP 	polygon: autoDraw = False
+215.1496 	EXP 	stim: autoDraw = False
+215.1496 	EXP 	mask: autoDraw = False
+215.1496 	EXP 	stim: image = 'imgs/3_stim.png'
+215.1496 	EXP 	polygon: autoDraw = True
+215.8166 	EXP 	polygon: autoDraw = False
+215.9666 	EXP 	stim: autoDraw = True
+215.9999 	EXP 	stim: autoDraw = False
+216.0833 	EXP 	mask: autoDraw = True
+216.1167 	EXP 	mask: autoDraw = False
+216.5731 	EXP 	New trial (rep=97, index=0): None
+216.5887 	DATA 	Keypress: d
+216.6002 	EXP 	polygon: autoDraw = False
+216.6002 	EXP 	stim: autoDraw = False
+216.6002 	EXP 	mask: autoDraw = False
+216.6002 	EXP 	stim: image = 'imgs/1_stim.png'
+216.6002 	EXP 	polygon: autoDraw = True
+217.3005 	EXP 	polygon: autoDraw = False
+217.4172 	EXP 	stim: autoDraw = True
+217.4506 	EXP 	stim: autoDraw = False
+217.5006 	EXP 	mask: autoDraw = True
+217.5340 	EXP 	mask: autoDraw = False
+218.2243 	EXP 	New trial (rep=98, index=0): None
+218.2407 	DATA 	Keypress: a
+218.2509 	EXP 	polygon: autoDraw = False
+218.2509 	EXP 	stim: autoDraw = False
+218.2509 	EXP 	mask: autoDraw = False
+218.2509 	EXP 	stim: image = 'imgs/2_stim.png'
+218.2509 	EXP 	polygon: autoDraw = True
+218.9679 	EXP 	polygon: autoDraw = False
+219.2014 	EXP 	stim: autoDraw = True
+219.2347 	EXP 	stim: autoDraw = False
+219.2347 	EXP 	mask: autoDraw = True
+219.2680 	EXP 	mask: autoDraw = False
+219.6909 	EXP 	New trial (rep=99, index=0): None
+219.7063 	DATA 	Keypress: q
+219.7182 	EXP 	polygon: autoDraw = False
+219.7182 	EXP 	stim: autoDraw = False
+219.7182 	EXP 	mask: autoDraw = False
+219.7182 	EXP 	stim: image = 'imgs/1_stim.png'
+219.7182 	EXP 	polygon: autoDraw = True
+220.2852 	EXP 	polygon: autoDraw = False
+220.4685 	EXP 	stim: autoDraw = True
+220.5019 	EXP 	stim: autoDraw = False
+220.5853 	EXP 	mask: autoDraw = True
+220.6186 	EXP 	mask: autoDraw = False
+221.1108 	DATA 	Keypress: a
+221.1188 	EXP 	polygon: autoDraw = False
+221.1188 	EXP 	stim: autoDraw = False
+221.1188 	EXP 	mask: autoDraw = False
+221.1188 	EXP 	text_3: autoDraw = True
+223.1197 	EXP 	text_3: autoDraw = False
+223.1197 	EXP 	text_3: autoDraw = False
+223.1933 	EXP 	window1: mouseVisible = True
